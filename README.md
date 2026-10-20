@@ -35,7 +35,7 @@ npm run test:e2e
 npm run build
 ```
 
-The production build is a static export in `out/`. On GitHub Actions, the base path is `/wayfarer`; local builds use `/`. The demo deploys to GitHub Pages only after the Verify workflow passes.
+The production build is a static export in `out/`. On GitHub Actions, the base path is `/wayfarer`; local builds use `/`. The repository includes Verify and Deploy demo workflows for GitHub Actions. The current demo is served from a separately published `gh-pages` branch containing a locally verified static build. To enable automatic deployments, select GitHub Actions as the Pages source when Actions is available.
 
 ## Inside
 
